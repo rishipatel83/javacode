@@ -2,6 +2,7 @@ const marvelHeros = ["IronMan","Spiderman","Thor"];
 const DCHeros = ["SuperMan","Flash","BatMan"]
 // console.log(marvelHeros.push(DCHeros))  //gives array into a array
 // console.log(marvelHeros)
+
 const AllHeros = marvelHeros.concat(DCHeros)
 // console.log(AllHeros)  // give array with each element discrete
 
@@ -9,12 +10,10 @@ const newAllHeros = [...marvelHeros,...DCHeros] // spread method is used to dist
 // console.log(newAllHeros)
 
 const anotherArray = [0,1,2,[6,7],[8,9,[3,4]]]
-
 // console.log(anotherArray)
 
 const arrayUsingFlat = anotherArray.flat(Infinity)
-
-// console.log(arrayUsingFlat)
+// console.log(arrayUsingFlat)  // returns each element of nested arrays into a new array
 
 console.log(Array.isArray("Rishi"))  // returns false
 console.log(Array.from("Rishi")) // returns [ 'R', 'i', 's', 'h', 'i' ]
