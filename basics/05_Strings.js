@@ -10,4 +10,7 @@ const trim = "   rishi    ";
 // console.log(trim.trim())
 const name = "rishi"
 const repoCount = 50;
+
+//* these `` backticks are known as the string interpolation 
+
 console.log(`My name is ${name} and my repocount in my github is ${repoCount} repo's`)
