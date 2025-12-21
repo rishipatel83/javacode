@@ -10,4 +10,26 @@ function isLoggedIn(username = "Rishi"){
    }
    return `${username} just logged in.`
 }
-console.log(isLoggedIn("sumit"))
+// console.log(isLoggedIn("sumit"))
+
+function useRest(...score){   // similar to the spread but it gathers not spread the info
+   return score               // provides in the form of a array
+}
+console.log(useRest(101,89,65))
+
+const user = {
+   username: "rishi",
+   email:"rishi@google.com"
+}
+function giveDetail(getUser){
+   return`${getUser.username} logged in with email ${getUser.email}`
+}
+console.log(giveDetail(user));
+
+const myArr = [3,5,8,9,100];
+
+function getIndexThree(getArray){
+   return getArray[3]
+}
+console.log(getIndexThree(myArr));
+
