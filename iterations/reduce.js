@@ -18,5 +18,3 @@ const courses = [
 ]
 const cartValue = courses.reduce((acc,item) => acc+item.price,0)
 console.log(cartValue);
-
-courses.reduce
