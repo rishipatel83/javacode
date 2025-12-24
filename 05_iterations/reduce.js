@@ -17,4 +17,8 @@ const courses = [
    }
 ]
 const cartValue = courses.reduce((acc,item) => acc+item.price,0)
-console.log(cartValue);
+// console.log(cartValue);
+ 
+// another way to do it quite similar but watch it once
+const val = [1,2,3].reduce((x,y)=>(x+y));
+console.log(val);
