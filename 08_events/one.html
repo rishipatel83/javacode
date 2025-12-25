@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #414141; color: aliceblue">
+    <h2 id="heading">Hello world</h2>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </body>
+  <script>
+    const start = document.querySelector("#start");
+    const stop = document.querySelector("#stop");
+    const changeName = function () {
+      const heading = document.getElementById("heading");
+      heading.innerHTML = "Chai Aur Code";
+    };
+    start.addEventListener("click", function () {
+      const hello = setTimeout(changeName, 3000);
+      console.log("ineterval started");
+    });
+    stop.addEventListener("click", function () {
+      // clearInterval(hello);
+      console.log("Interval stopped");
+    });
+  </script>
+</html>
