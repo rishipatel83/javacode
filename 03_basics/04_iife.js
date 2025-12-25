@@ -5,7 +5,11 @@
 (function chai(){
    console.log(`DB connected`)
 })();   // don't forget to apply semicolon here 
-// this is not named iife
+// this is unnamed iife
 ((userName)=>{
    console.log(`${userName} just logged in to the DB`)
 })('rishi');
+// this is also unnamed iife
+(()=>{
+   console.log(`DB connected`)
+})(); 
