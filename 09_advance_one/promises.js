@@ -1,4 +1,4 @@
-// crating promise
+// creating promise
 const promiseOne = new Promise(function (resolve, reject) {
   setTimeout(() => {
     console.log("Async task is completed");
@@ -20,3 +20,15 @@ new Promise(function (resolve, reject) {
 }).then(function () {
   console.log("Async 2 resolved ");
 });
+
+// fetch('https://api.github.com/users/hiteshchoudhary')
+// .then((response)=>{
+//   return response.json()
+// })
+// .then((data)=>{
+//   console.log(data[login])
+  
+// })
+// .catch((error)=>{
+//   console.log(error);
+// })

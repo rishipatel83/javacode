@@ -14,4 +14,4 @@ const day = din.toLocaleString('default',{
 console.log(day);
 date.innerHTML = pdate;
 date.innerHTML += " ";
-date.innerHTML += day;
+date.innerHTML += day;  
