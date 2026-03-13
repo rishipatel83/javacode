@@ -7,3 +7,6 @@ The `let` keyword is used to declare a block-scoped variable. Unlike `var`, whic
 
 @de body
 The `body` element represents the content of an HTML document. It is a container for all the visible content on a web page, including text, images, links, and other elements. The `body` element is a child of the `html` element and is typically used to structure the main content of a web page.
+
+@de log
+The `log` method of the `console` object is used to output messages to the web console. It can be used for debugging purposes, allowing developers to see the values of variables, the flow of execution, and other information that can help identify issues in their code. The `log` method can accept multiple arguments, which will be concatenated into a single message in the console.
